@@ -1,0 +1,32 @@
+remote_theme: pdmosses/just-the-docs@callouts
+
+logo: "/images/logos/foundation-logo.png"
+
+footer_content: "Copyright &copy; 2017-2021 Administrator_Mr's SCP Foundation."
+
+color_scheme: scpf
+
+callouts:
+  important:
+    title: Important
+    color: red
+  caution:
+    title: Caution
+    color: yellow
+  hint:
+    title: Hint
+    color: green
+  information:
+    title: Information
+    color: blue
+
+search_enabled: false # There is no sufficient styling for the search feature.
+
+last_edit_timestamp: false
+
+gh_edit_link: true
+gh_edit_link_text: "Edit"
+gh_edit_repository: "https://github.com/SCPF-AdministratorMr-Foundation/scpf"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "edit"
