@@ -21,6 +21,6 @@ Violation of any of the following rules will result in disciplinary action being
 - **Rogue** (major breach of the guidelines that have been set out) - 3-day ban and a demotion to Class D.
 - **Glitching** (making use of bugs/systems which are not intended) - 3-day ban.
 - **Wall Shooting** (shooting through a solid object) - 3-day ban.
-- **Violating Roblox Terms of Service** (not abiding by the terms Roblox have set) - 1-day ban.
+- **Violating Roblox Terms of Service** (not abiding by the terms Roblox have set - an exclusion to this is when players use language not directed at others) - 1-day ban.
 - **Evading Solitary Confinement** (avoiding solitary confinement) - 1-day ban.
 - **Spawn Killing** (killing in a spawn room or as members exit) - 1-day ban.
