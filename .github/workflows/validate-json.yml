@@ -17,5 +17,5 @@ jobs:
     - name: Validate External Research Authorisation JSON
       uses: docker://orrosenblatt/validate-json-action:latest
       env:
-          INPUT_SCHEMA: /external-research-authorsation/schema.json
-          INPUT_JSONS: /external-research-authorsation/data.json
+          INPUT_SCHEMA: /external-research-authorisation/schema.json
+          INPUT_JSONS: /external-research-authorisation/data.json
