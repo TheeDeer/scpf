@@ -1,0 +1,120 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "content": "SCP-005\nClass: Safe\nContainment Zone: LCZ\nStatus: Contained\n\n____________________________________________________\nSCP-005 is described as an ornate key, mass produced in the 1920s. However, it posses the ability to manipulate to allow for the key to be used for any lock, digital or otherwise. On Area-14, SCP-005 is able to open any and all doors within the facility, meaning security precautions surrounding testing must be taken seriously, lest the Class-D escapes. SCP-005 may only be tested upon by a Researcher+ with supervision from a CR+ owing to the clearance requirement being Level-4.\n____________________________________________________\nScientific Department Notes:\nN/A",
+                "title": "SCP 005",
+                "department": "SCPs"
+            },
+            {
+                "content": "SCP-014\nClass: Safe\nContainment Zone: LCZ\nStatus: Contained\n____________________________________________________\nSCP-014 is a Caucasian male with the appearance of being in his 30s. He has brown hair and eyes. SCP-014 is to all outward appearances a normal man, but he does not appear to age, and shows no signs of possessing a metabolism. He does not eat, drink, perspire, or in any other way demonstrate life functions. He breathes only to speak, and apart from his eyes and vocal apparatus, is to all appearances utterly immobile. When you enter the chamber you may sit and ask SCP-014 questions by clicking the question mark box above it’s head. It will then provide different answers depending on what question you ask.\n____________________________________________________\nScientific Department Notes:\nSCP-014 may be tested upon without the usage of a Class-D, however security is still required. Just ask for 1 SD to a TSTA, tell them you wish to go to SCP-014 and then follow standard testing procedures. However, you may enter the chamber to speak to 014. Or even turn on the music.\n\nDo not enter the chamber if you are taking Class-Ds there.",
+                "title": "SCP 014",
+                "department": "SCPs"
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "content": "SCP-005\nClass: Safe\nContainment Zone: LCZ\nStatus: Contained\n\n____________________________________________________\nSCP-005 is described as an ornate key, mass produced in the 1920s. However, it posses the ability to manipulate to allow for the key to be used for any lock, digital or otherwise. On Area-14, SCP-005 is able to open any and all doors within the facility, meaning security precautions surrounding testing must be taken seriously, lest the Class-D escapes. SCP-005 may only be tested upon by a Researcher+ with supervision from a CR+ owing to the clearance requirement being Level-4.\n____________________________________________________\nScientific Department Notes:\nN/A",
+                        "title": "SCP 005",
+                        "department": "SCPs"
+                    }
+                ],
+                "required": [
+                    "content",
+                    "title",
+                    "department"
+                ],
+                "properties": {
+                    "content": {
+                        "$id": "#/items/anyOf/0/properties/content",
+                        "type": "string",
+                        "title": "The content schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "SCP-005\nClass: Safe\nContainment Zone: LCZ\nStatus: Contained\n\n____________________________________________________\nSCP-005 is described as an ornate key, mass produced in the 1920s. However, it posses the ability to manipulate to allow for the key to be used for any lock, digital or otherwise. On Area-14, SCP-005 is able to open any and all doors within the facility, meaning security precautions surrounding testing must be taken seriously, lest the Class-D escapes. SCP-005 may only be tested upon by a Researcher+ with supervision from a CR+ owing to the clearance requirement being Level-4.\n____________________________________________________\nScientific Department Notes:\nN/A"
+                        ]
+                    },
+                    "title": {
+                        "$id": "#/items/anyOf/0/properties/title",
+                        "type": "string",
+                        "title": "The title schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "SCP 005"
+                        ]
+                    },
+                    "department": {
+                        "$id": "#/items/anyOf/0/properties/department",
+                        "type": "string",
+                        "title": "The department schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "SCPs"
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            },
+            {
+                "$id": "#/items/anyOf/1",
+                "type": "object",
+                "title": "The second anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "content": "Dr. Kreeper woke up with a jolt. He had passed out working on his SCP-409 test report in his office. Checking the time, he sighed, “11 PM.” With his fingers running through his soft, brown hair, he packed up his belongings and headed off for the night. Strangely enough, he felt as he was being watched. This was normal during the day, but this night it felt different to him. Like someone was there this time. Near the cafeteria, he suddenly stopped, realizing he forgot the SCP-409 report. He walked back to the Medical Bay in his classic cheerful way. His face quickly turned from happy to confused and creeped out. The SCP-409 report was on a side table next to a bench. He picked up and read the sentence written on a sticky note. “I heard you forgot this, so here you go.” Dr. Kreeper was completely freaked out, as this proves he was being watched; maybe even stalked. He thought to himself, “Am I going crazy? Is there someone watching me? What do I do?” All the questions cycled through his head. He decided that getting sleep may be the best thing to do for now. Continuing his walk to the living quarters, a shadowy aura started to form around his body. It seemed to slowly come out of the SCP-409 report and consume his energy, as he got slower and slower, and sleepier and sleepier. He eventually passed out, collapsing on the ground. The Shadow stole his keycard, vials, and the report it came out of. Off it went into the night, never to be seen again. The Doctor slowly faded away...\n\nDr. Kreeper looked around. He was in some sort of dream world. He walked around, trying to grasp what just happened. So many questions, not enough answers. Eventually, he came upon a towering building with the same aura that sucked him into this place. It seemed to be drawing him in, closer and closer. He soon found his hand on the red heavy door. Trying to pull with all his might, he eventually got in. Once inside, The Shadow lifted him up in the air, bringing him up all the several thousand floors. He felt like throwing up after looking how high up he was. The Shadow slowed down as they approached the top floor. “What’s going to be up there?” Dr. Kreeper thought to himself. “I probably won't be good, so I’ll just hope for the best.” They had arrived. What laid before his eyes was a large, scarlet, throne. It looked as if it was made from human flesh and bones. There was a black haired woman sitting on it. Her hair was The Shadow. After looking at Dr. Kreeper for what felt like hours, she whispered, “Bye,” as he fell into the void, bringing him back to the real world. Once back, he didn’t know what to do but sit on the ground and stare at a wall. “This isn’t good,” he said minutes later, eventually going to the living quarters. This thing was now in the real world. The Shadow was after the Foundation, now and forever.\n",
+                        "title": "The Shadow"
+                    }
+                ],
+                "required": [
+                    "content",
+                    "title"
+                ],
+                "properties": {
+                    "content": {
+                        "$id": "#/items/anyOf/1/properties/content",
+                        "type": "string",
+                        "title": "The content schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Dr. Kreeper woke up with a jolt. He had passed out working on his SCP-409 test report in his office. Checking the time, he sighed, “11 PM.” With his fingers running through his soft, brown hair, he packed up his belongings and headed off for the night. Strangely enough, he felt as he was being watched. This was normal during the day, but this night it felt different to him. Like someone was there this time. Near the cafeteria, he suddenly stopped, realizing he forgot the SCP-409 report. He walked back to the Medical Bay in his classic cheerful way. His face quickly turned from happy to confused and creeped out. The SCP-409 report was on a side table next to a bench. He picked up and read the sentence written on a sticky note. “I heard you forgot this, so here you go.” Dr. Kreeper was completely freaked out, as this proves he was being watched; maybe even stalked. He thought to himself, “Am I going crazy? Is there someone watching me? What do I do?” All the questions cycled through his head. He decided that getting sleep may be the best thing to do for now. Continuing his walk to the living quarters, a shadowy aura started to form around his body. It seemed to slowly come out of the SCP-409 report and consume his energy, as he got slower and slower, and sleepier and sleepier. He eventually passed out, collapsing on the ground. The Shadow stole his keycard, vials, and the report it came out of. Off it went into the night, never to be seen again. The Doctor slowly faded away...\n\nDr. Kreeper looked around. He was in some sort of dream world. He walked around, trying to grasp what just happened. So many questions, not enough answers. Eventually, he came upon a towering building with the same aura that sucked him into this place. It seemed to be drawing him in, closer and closer. He soon found his hand on the red heavy door. Trying to pull with all his might, he eventually got in. Once inside, The Shadow lifted him up in the air, bringing him up all the several thousand floors. He felt like throwing up after looking how high up he was. The Shadow slowed down as they approached the top floor. “What’s going to be up there?” Dr. Kreeper thought to himself. “I probably won't be good, so I’ll just hope for the best.” They had arrived. What laid before his eyes was a large, scarlet, throne. It looked as if it was made from human flesh and bones. There was a black haired woman sitting on it. Her hair was The Shadow. After looking at Dr. Kreeper for what felt like hours, she whispered, “Bye,” as he fell into the void, bringing him back to the real world. Once back, he didn’t know what to do but sit on the ground and stare at a wall. “This isn’t good,” he said minutes later, eventually going to the living quarters. This thing was now in the real world. The Shadow was after the Foundation, now and forever.\n"
+                        ]
+                    },
+                    "title": {
+                        "$id": "#/items/anyOf/1/properties/title",
+                        "type": "string",
+                        "title": "The title schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "The Shadow"
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}

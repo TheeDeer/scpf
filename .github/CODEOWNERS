@@ -1,9 +1,19 @@
+# Bubble up any further unprotected files to Quinn.
 * @quinnicious
 
+# Allow O5 Council to make modifications to the /docs/ directory, and any of its nested children.
 /docs/ @SCPF-AdministratorMr-Foundation/o5-council
 
+# Allow Senior Developers to make modifications to the changelogs markdown file.
 /docs/changelogs/changelogs.md @SCPF-AdministratorMr-Foundation/senior-developers
 
+# Allow Senior Developers to make modifications to the /external-research-authorisation/ directory, and any of its nested children.
+/external-research-authorisation/ @SCPF-AdministratorMr-Foundation/senior-developers
+
+# Allow Senior Developers to make modifications to the /library/ directory, and any of its nested children.
+/library/ @SCPF-AdministratorMr-Foundation/senior-developers
+
+# Protect delicate files by having Quinn review modifications first.
 /docs/_sass/ @quinnicious
 /docs/CNAME @quinnicious
 /docs/_config.yml @quinnicious

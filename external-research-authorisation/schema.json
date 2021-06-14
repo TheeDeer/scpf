@@ -1,0 +1,94 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "array",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": [],
+    "examples": [
+        [
+            {
+                "Username": "EternallyAuthentic",
+                "UserId": 175504699,
+                "Rank": "Senior External Scientist",
+                "Suspended": false
+            },
+            {
+                "Username": "Camper1615",
+                "UserId": 371535282,
+                "Rank": "External Scientist",
+                "Suspended": false
+            }
+        ]
+    ],
+    "additionalItems": true,
+    "items": {
+        "$id": "#/items",
+        "anyOf": [
+            {
+                "$id": "#/items/anyOf/0",
+                "type": "object",
+                "title": "The first anyOf schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": {},
+                "examples": [
+                    {
+                        "Username": "EternallyAuthentic",
+                        "UserId": 175504699,
+                        "Rank": "Senior External Scientist",
+                        "Suspended": false
+                    }
+                ],
+                "required": [
+                    "Username",
+                    "UserId",
+                    "Rank",
+                    "Suspended"
+                ],
+                "properties": {
+                    "Username": {
+                        "$id": "#/items/anyOf/0/properties/Username",
+                        "type": "string",
+                        "title": "The Username schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "EternallyAuthentic"
+                        ]
+                    },
+                    "UserId": {
+                        "$id": "#/items/anyOf/0/properties/UserId",
+                        "type": "integer",
+                        "title": "The UserId schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": 0,
+                        "examples": [
+                            175504699
+                        ]
+                    },
+                    "Rank": {
+                        "$id": "#/items/anyOf/0/properties/Rank",
+                        "type": "string",
+                        "title": "The Rank schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": "",
+                        "examples": [
+                            "Senior External Scientist"
+                        ]
+                    },
+                    "Suspended": {
+                        "$id": "#/items/anyOf/0/properties/Suspended",
+                        "type": "boolean",
+                        "title": "The Suspended schema",
+                        "description": "An explanation about the purpose of this instance.",
+                        "default": false,
+                        "examples": [
+                            false
+                        ]
+                    }
+                },
+                "additionalProperties": true
+            }
+        ]
+    }
+}
