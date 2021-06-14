@@ -1,6 +1,6 @@
 * @quinnicious
 
-/docs/**.md @@SCPF-AdministratorMr-Foundation/o5-council
-/docs/images/** @@SCPF-AdministratorMr-Foundation/o5-council
+/docs/**.md @SCPF-AdministratorMr-Foundation/o5-council
+/docs/images/** @SCPF-AdministratorMr-Foundation/o5-council
 
 /docs/changelogs/changelogs.md @SCPF-AdministratorMr-Foundation/senior-developers
