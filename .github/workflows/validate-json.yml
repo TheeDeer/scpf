@@ -1,0 +1,21 @@
+name: Validate JSON
+on: [push, pull_request]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+      
+    - name: Validate Library JSON
+      uses: docker://orrosenblatt/validate-json-action:latest
+      env:
+          INPUT_SCHEMA: /library/schema.json
+          INPUT_JSONS: /library/data.json
+    
+    - name: Validate External Research Authorisation JSON
+      uses: docker://orrosenblatt/validate-json-action:latest
+      env:
+          INPUT_SCHEMA: /external-research-authorsation/schema.json
+          INPUT_JSONS: /external-research-authorsation/data.json
