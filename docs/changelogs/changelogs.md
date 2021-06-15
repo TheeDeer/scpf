@@ -11,6 +11,37 @@ This web page is managed and updated by the Manufacturing Department.
 ## Quick Links
 * [Detailed Weapon Statistics](https://docs.google.com/spreadsheets/d/17A-Qn2cw7yGLl_R0BbsM4ODvLzdZUj_Z9p6ZllokMis/edit?usp=sharing)
 
+## June xxth, 2021
+This update was worked on by Alikeshadow and TheeDeer. 
+
+### Added
+- Scanner Confiscation.
+- SRU Spawn Bulkhead
+- Bulkheads to TSC towers
+- Clearance signs to stairs
+- Library room sign
+- Two firedoors (MD & FP Cafe)
+- TV to TSC
+- RadioMute button to Personnell Manager
+
+### Changed
+- TSC Glass to new variant
+- Zone-D to Zone-C checkpoint
+- Zone-C to Zone-A permissions (added SD)
+- Regen terminal command (Added Level:4)
+- Scanner deny sound (quieter)
+- EC Spawns access (added MD+DEA)
+- Site Security termianl permissions (added DEA)
+
+### Fixed
+- Camera bug (shift-lock)
+- Zone-A gate clipping
+- SRU private server permissions
+- SD/SRU private server protocal permissions (added night crawler, defense, and sweep)
+
+### Removed
+- One firedoor (Near SD spawn)
+
 ## June 8th, 2021
 This update was worked on by Alikeshadow and TheeDeer
 
