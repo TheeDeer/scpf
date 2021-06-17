@@ -40,7 +40,7 @@ Duties must not be created just to give members something to do. It must either 
 ## Department Reports
 To ensure the Site Director and the O5 Council is kept informed of how the department you're assigned to is performing, it is important that on the 1st and 15th day of each month, you send the Site Director a department report. Such a report will allow for a concrete discussion (if needed) to take place regarding anything which needs to be adjusted within the department and guide you with your plans.
 
-The department report must follow a template. This template can be found within the "FOUNDATION - Medium Command | Public" Google Shared Drive.
+The department report must follow a template. This template can be found within the "FOUNDATION - Medium Command \| Public" Google Shared Drive.
 
 ## Universal Announcements & Notices
 The #announcements and #notices channels are open to a set of High Command personnel to allow for noticeable content to be posted. For example, a recent Security Department guideline change allowing them to guard other Foundation personnel.
@@ -158,11 +158,15 @@ When issuing a disciplinary in the department you are a command member for, it i
 
 When adding a department disciplinary to a user's Eve notes, ensure it follows the below format.
 
-```<Full Department Name> - <Punishment> - <Violation>```
+```
+<Full Department Name> - <Punishment> - <Violation>
+```
 
 An example of the above format would be:
 
-```Security Department - Demotion from Security Sentinel to Security Junior - Disobeying orders```
+```
+Security Department - Demotion from Security Sentinel to Security Junior - Disobeying orders
+```
 
 ## Raids
 Raids must be discussed in advance with a member of the hostile team's leadership. Alternatively, they may decide to contact you directly or tag you within the Department of External Affairs Discord server. If deemed appropriate, in accordance with the [Raid Guidelines](/gameplay/raiding.html), you are to authorise the raid using the `-raid authorise <ci/thi>` command within the "#bot_commands" channel of the main Discord server. When the raid time has expired, similarly, unauthorise the raid using the `-raid unauthorise` command within the same channel.

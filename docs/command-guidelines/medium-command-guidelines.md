@@ -76,7 +76,7 @@ Every two weeks, the Site Director holds a Foundation Command meeting. A notice 
 ## Inactivity Notices
 Inactivity notices are managed by Foundation Level 3 and above unless department guidelines state otherwise.
 
-In order to manage inactivity notices, visit the "Inactivity Tracker" sheet inside of the "FOUNDATION - Medium Command | Public" Google Shared Drive. At the bottom, there is a sheet for each department. You are only to manage inactivity notices for the department(s) where you are a command member.
+In order to manage inactivity notices, visit the "Inactivity Tracker" sheet inside of the "FOUNDATION - Medium Command \| Public" Google Shared Drive. At the bottom, there is a sheet for each department. You are only to manage inactivity notices for the department(s) where you are a command member.
 
 For each inactivity notice submission, it must be processed by yourself. This is relatively simple. Each row is one submitted inactivity notice. Fields are categorised to make management easier.
 
