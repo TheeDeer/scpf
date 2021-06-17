@@ -80,8 +80,8 @@ In order to manage inactivity notices, visit the "Inactivity Tracker" sheet insi
 
 For each inactivity notice submission, it must be processed by yourself. This is relatively simple. Each row is one submitted inactivity notice. Fields are categorised to make management easier.
 
-- Submissions - The submitted data for the inactivity notice.
-- Calculations - Automatic calculations providing extra insight into the inactivity notice e.g. if the inactivity notice has expired.
-- Management - Editable fields where data must be inputted yourself. The fields in this category are self-explanatory.
+- **Submissions** - The submitted data for the inactivity notice.
+- **Calculations** - Automatic calculations providing extra insight into the inactivity notice e.g. if the inactivity notice has expired.
+- **Management** - Editable fields where data must be inputted yourself. The fields in this category are self-explanatory.
 
 When an inactivity notice has been processed by yourself, ensure to contact the member via Discord to inform them of the outcome of their submitted inactivity notice.
