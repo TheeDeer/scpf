@@ -12,7 +12,7 @@ This web page is managed and updated by the Manufacturing Department.
 * [Detailed Weapon Statistics](https://docs.google.com/spreadsheets/d/17A-Qn2cw7yGLl_R0BbsM4ODvLzdZUj_Z9p6ZllokMis/edit?usp=sharing)
 
 ## June xxth, 2021
-This update was worked on by Alikeshadow and TheeDeer. 
+This update was worked on by Alikeshadow, TheeDeer, and SpecialForcest. 
 
 ### Added
 - Scanner Confiscation.
@@ -23,8 +23,11 @@ This update was worked on by Alikeshadow and TheeDeer.
 - Two firedoors (MD & FP Cafe)
 - TV to TSC
 - RadioMute button to Personnell Manager
+- EC Hats
 
 ### Changed
+- SCP 216
+- SCP 472
 - TSC Glass to new variant
 - Zone-D to Zone-C checkpoint
 - Zone-C to Zone-A permissions (added SD)
