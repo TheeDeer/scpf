@@ -11,6 +11,36 @@ This web page is managed and updated by the Manufacturing Department.
 ## Quick Links
 * [Detailed Weapon Statistics](https://docs.google.com/spreadsheets/d/17A-Qn2cw7yGLl_R0BbsM4ODvLzdZUj_Z9p6ZllokMis/edit?usp=sharing)
 
+## June Xth, 2021
+This update was worked on by TheeDeer, Alikeshadow, and SpecialForcest
+
+### Added
+- Bulkheads to TSC windows.
+- SRU Spawn Bulkhead
+- Radiomute button to personnel manager
+- Clearance sign to stais
+- Two Firedoors (FP Cafe+MD)
+- TV to TSC
+- Tool confiscation (via scanners)
+- EC rank hats
+- Connection from MTF spawn to vehicle bay 
+
+### Changed
+- SCP 472
+- SCP 216
+- CZ Scanners
+- ZA-CZ Gate permissions (Added SD)
+- Library books (Contain pages)
+- MK11 and Scar-H idle animations to M4
+- Scanner triggers (Combative/Class A/IA nolonger trigger)
+- TSC terminal placement
+
+### Fixed
+- Termainl in 1162
+
+### Removed
+- One firedoor (SD spawn)
+
 ## June 8th, 2021
 This update was worked on by Alikeshadow and TheeDeer
 
