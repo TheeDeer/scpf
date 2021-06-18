@@ -24,6 +24,7 @@ This update was worked on by Alikeshadow, TheeDeer, and SpecialForcest.
 - TV to TSC
 - RadioMute button to Personnell Manager
 - EC Hats
+- MTF Spawn to Vehicle depot exit
 
 ### Changed
 - SCP 216
