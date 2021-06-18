@@ -17,7 +17,7 @@ This update was worked on by Alikeshadow, TheeDeer, and SpecialForcest.
 ### Added
 - Scanner Confiscation.
 - SRU Spawn Bulkhead
-- Bulkheads to TSC towers
+- Bulkheads to TSC towers and OBS Glass
 - Clearance signs to stairs
 - Library room sign
 - Two firedoors (MD & FP Cafe)
@@ -35,6 +35,7 @@ This update was worked on by Alikeshadow, TheeDeer, and SpecialForcest.
 - Scanner deny sound (quieter)
 - EC Spawns access (added MD+DEA)
 - Site Security termianl permissions (added DEA)
+- CZ Scanner location
 
 ### Fixed
 - Camera bug (shift-lock)
