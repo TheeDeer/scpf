@@ -38,7 +38,7 @@ This update was worked on by Alikeshadow, TheeDeer, and SpecialForcest.
 - CZ Scanner location
 
 ### Fixed
-- Camera bug (shift-lock)
+- Camera bug (shift-lock) (Partially)
 - Zone-A gate clipping
 - SRU private server permissions
 - SD/SRU private server protocal permissions (added night crawler, defense, and sweep)
